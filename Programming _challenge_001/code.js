@@ -1,3 +1,5 @@
+// Language used: NodeJS
+
 var fs = require('fs');
 var textByLine = fs.readFileSync('input.txt').toString().trim().split("\r\n");
 
